@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="15" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -189,25 +189,8 @@
 <board>
 <plain>
 <text x="13" y="18" size="1.27" layer="26" font="vector" ratio="20" rot="MR0" align="center">DOMINO XIAO</text>
-<wire x1="26" y1="0.5" x2="26" y2="21" width="0.1524" layer="20"/>
-<wire x1="26" y1="21" x2="25.5" y2="21.5" width="0.1524" layer="20"/>
-<wire x1="25.5" y1="21.5" x2="25.5" y2="22" width="0.1524" layer="20"/>
-<wire x1="25.5" y1="22" x2="26.5" y2="23" width="0.1524" layer="20" curve="-90"/>
-<wire x1="26.5" y1="23" x2="30" y2="23" width="0.1524" layer="20"/>
-<wire x1="30" y1="23" x2="30" y2="29" width="0.1524" layer="20"/>
-<wire x1="30" y1="29" x2="26.5" y2="29" width="0.1524" layer="20"/>
-<wire x1="26.5" y1="29" x2="25.5" y2="30" width="0.1524" layer="20" curve="-90"/>
-<wire x1="25.5" y1="30" x2="25.5" y2="30.5" width="0.1524" layer="20"/>
-<wire x1="25.5" y1="30.5" x2="26" y2="31" width="0.1524" layer="20"/>
-<wire x1="26" y1="31" x2="26" y2="50" width="0.1524" layer="20"/>
-<wire x1="0" y1="50" x2="0" y2="31" width="0.1524" layer="20"/>
-<wire x1="0" y1="31" x2="0.5" y2="30.5" width="0.1524" layer="20"/>
-<wire x1="0.5" y1="30.5" x2="0.5" y2="30" width="0.1524" layer="20"/>
-<wire x1="0.5" y1="30" x2="-0.5" y2="29" width="0.1524" layer="20" curve="-90"/>
-<wire x1="-0.5" y1="23" x2="0.5" y2="22" width="0.1524" layer="20" curve="-90"/>
-<wire x1="0.5" y1="22" x2="0.5" y2="21.5" width="0.1524" layer="20"/>
-<wire x1="0.5" y1="21.5" x2="0" y2="21" width="0.1524" layer="20"/>
-<wire x1="0" y1="21" x2="0" y2="0.5" width="0.1524" layer="20"/>
+<wire x1="26" y1="0.5" x2="26" y2="50" width="0.1524" layer="20"/>
+<wire x1="0" y1="50" x2="0" y2="0.5" width="0.1524" layer="20"/>
 <wire x1="0" y1="0.5" x2="0.5" y2="0" width="0.1524" layer="20" curve="90"/>
 <wire x1="0.5" y1="0" x2="25.5" y2="0" width="0.1524" layer="20"/>
 <wire x1="25.5" y1="0" x2="26" y2="0.5" width="0.1524" layer="20" curve="90"/>
@@ -253,9 +236,6 @@
 <dimension x1="3" y1="52" x2="23" y2="52" x3="13" y3="55" textsize="1" layer="51"/>
 <text x="2.25" y="6.5" size="1" layer="26" font="vector" rot="MR0" align="center">-</text>
 <text x="6.75" y="6.5" size="1" layer="26" font="vector" rot="MR0" align="center">+</text>
-<hole x="25.5" y="26" drill="1"/>
-<hole x="25.5" y="28" drill="1"/>
-<hole x="25.5" y="24" drill="1"/>
 <text x="4.999990625" y="16.999990625" size="0.799996875" layer="125" font="vector" rot="R180" align="center">C1</text>
 <text x="17.999990625" y="16.999990625" size="0.799996875" layer="125" font="vector" rot="R180" align="center">C2</text>
 <text x="4.499990625" y="13.2500125" size="0.799996875" layer="126" font="vector" rot="MR0" align="center">C3</text>
@@ -280,12 +260,6 @@
 <text x="7.25" y="38.96" size="1" layer="26" font="vector" rot="MR180" align="center-left">D4</text>
 <text x="7.25" y="36.42" size="1" layer="26" font="vector" rot="MR180" align="center-left">D5</text>
 <text x="7.25" y="33.88" size="1" layer="26" font="vector" rot="MR180" align="center-left">D6/TX</text>
-<wire x1="-0.5" y1="29" x2="-3" y2="29" width="0.1524" layer="20"/>
-<wire x1="-3" y1="29" x2="-3" y2="23" width="0.1524" layer="20"/>
-<wire x1="-3" y1="23" x2="-0.5" y2="23" width="0.1524" layer="20"/>
-<hole x="0.5" y="28" drill="1"/>
-<hole x="0.5" y="26" drill="1"/>
-<hole x="0.5" y="24" drill="1"/>
 <text x="13" y="21" size="1" layer="25" font="vector" rot="R180" align="center">D8</text>
 <text x="24.25" y="49.12" size="1" layer="25" font="vector" align="center-left">5V</text>
 <text x="24.25" y="46.58" size="0.6" layer="25" font="vector" align="center-left">GND</text>
@@ -2414,7 +2388,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="18.77" y="19.54" size="1" layer="27" font="vector" rot="R180"/>
 </element>
 <element name="A-V+" library="Botamochi-Jumper" package="SMT-JUMPER_3_1-NC_PASTE_SILK" value="JUMPER-SMT_3_1-NC_PASTE-SILK" x="1.25" y="12.75" smashed="yes" rot="R90">
-<attribute name="NAME" x="1.25" y="16" size="0.6" layer="25" font="vector" ratio="20" rot="R90" align="center-left"/>
+<attribute name="NAME" x="1.25" y="15.5" size="0.6" layer="25" font="vector" ratio="20" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="2.393" y="12.75" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="B-V+" library="Botamochi-Jumper" package="SMT-JUMPER_3_1-NC_PASTE_SILK" value="JUMPER-SMT_3_1-NC_PASTE-SILK" x="24.75" y="12.75" smashed="yes" rot="R90">
